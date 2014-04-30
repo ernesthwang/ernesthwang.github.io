@@ -1,9 +1,17 @@
 <html>
     <head>
         <title>ernesthwang.github.io</title>
-        <link rel="shortcut icon" type="image/x-icon" href="http://ernesthwang.github.io/master/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="http://ernesthwang.github.io/img/pf_favicon__original_stroke.ico">
         <script language="javascript" type="text/javascript">
-        function openwin(){var a=window.open("http://ernesthwang.github.io","PF_EMR","status=0, toolbar=0, location=0, menubar=0, directories=0, resizable=1, scrollbars=1, width=1024, height=768, top=0, left=0")};
+        function openwin(){var a=window.open("http://ernesthwang.github.io","MyWindow","status=0, toolbar=0, location=0, menubar=0, directories=0, resizable=1, scrollbars=1, width=1024, height=768, top=0, left=0")};
+
+        function changeFavicon(url) {
+            var link = document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'shortcut icon';
+            link.href = url;
+            document.getElementsByTagName('head')[0].appendChild(link);
+        };
         </script>
     </head>
     <body>
@@ -11,7 +19,53 @@
         favicon in Chrome (try Alt-Tabbing after the window spawns).
         <br/>
         <form method="POST" action="#">
-            <input type="button" id="goButton" onClick="openwin();" value="GO" />
+            <input type="button" onClick="openwin();" value="Spawn New Window" />
+            <br/><br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__orig_inverted.ico');" value="pf_favicon__orig_inverted" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__orig_inverted_jira.ico');" value="pf_favicon__orig_inverted_jira" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__orig_inverted_wiki.ico');" value="pf_favicon__orig_inverted_wiki" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__orig_inverted2.ico');" value="pf_favicon__orig_inverted2" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__orig_jira.ico');" value="pf_favicon__orig_jira" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__orig_wiki.ico');" value="pf_favicon__orig_wiki" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__original_stroke.ico');" value="pf_favicon__original_stroke" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon__original_xfill.ico');" value="pf_favicon__original_xfill" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_blue.ico');" value="pf_favicon_blue" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_blue_int.ico');" value="pf_favicon_blue_int" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_darkblue.ico');" value="pf_favicon_darkblue" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_gold.ico');" value="pf_favicon_gold" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_green.ico');" value="pf_favicon_green" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_green_qa.ico');" value="pf_favicon_green_qa" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_lightblue.ico');" value="pf_favicon_lightblue" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_orange_pate.ico');" value="pf_favicon_orange_pate" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_orange2.ico');" value="pf_favicon_orange2" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_purple.ico');" value="pf_favicon_purple" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_purple_rc.ico');" value="pf_favicon_purple_rc" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_red.ico');" value="pf_favicon_red" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_red_stg.ico');" value="pf_favicon_red_stg" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_red2.ico');" value="pf_favicon_red2" />
+            <br/>
+            <input type="button" onClick="changeFavicon('http://ernesthwang.github.io/img/pf_favicon_turquoise.ico');" value="pf_favicon_turquoise" />
         </form>
     </body>
 </html>

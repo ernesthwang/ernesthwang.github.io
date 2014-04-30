@@ -1,4 +1,4 @@
 ernesthwang.github.io
 =====================
 
-GitHub Pages repository
+GitHub Pages repository for http://ernesthwang.github.io
